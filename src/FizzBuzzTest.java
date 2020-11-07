@@ -7,5 +7,7 @@ public class FizzBuzzTest {
 		public void fizzbuzznormal() {
 			FizzBuzzConverter fizzbuzz=new FizzBuzzConverter();
 			Assert.assertEquals("1", fizzbuzz.convert(1));
-}
+			Assert.assertEquals("2", fizzbuzz.convert(2));
+		
+		}
 }

@@ -18,7 +18,12 @@ public class FizzBuzzTest {
 		Assert.assertEquals("Fizz",fizzbuzz.convert(3));
 		}
 		
-		
+		@Test
+		public void multiplesoffive() {
+			FizzBuzzConverter fizzbuzz=new FizzBuzzConverter();
+		Assert.assertEquals("Buzz",fizzbuzz.convert(5));
+		}
+
 		
 		
 		

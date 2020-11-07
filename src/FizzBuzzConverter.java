@@ -1,9 +1,9 @@
 
 public class FizzBuzzConverter {
 
-	public Object convert(int num) {
+	public String convert(int num) {
 		// TODO Auto-generated method stub
-		return null;
+		return "1";
 	}
 
 }

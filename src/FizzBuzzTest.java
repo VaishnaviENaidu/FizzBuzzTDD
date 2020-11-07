@@ -24,6 +24,12 @@ public class FizzBuzzTest {
 		Assert.assertEquals("Buzz",fizzbuzz.convert(5));
 		}
 
+		@Test
+		public void multiplesofthreeandfive() {
+			FizzBuzzConverter fizzbuzz=new FizzBuzzConverter();
+		Assert.assertEquals("FizzBuzz",fizzbuzz.convert(15));
+		}
+
 		
 		
 		

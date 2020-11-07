@@ -1,5 +1,6 @@
 import org.junit.Assert;
-	import org.junit.Test;
+import org.junit.Test;
+
 
 public class FizzBuzzTest {
 	
@@ -10,4 +11,17 @@ public class FizzBuzzTest {
 			Assert.assertEquals("2", fizzbuzz.convert(2));
 		
 		}
+		
+		@Test
+		public void multiplesofthree() {
+			FizzBuzzConverter fizzbuzz=new FizzBuzzConverter();
+		Assert.assertEquals("Fizz",fizzbuzz.convert(3));
+		}
+		
+		
+		
+		
+		
+		
+		
 }
